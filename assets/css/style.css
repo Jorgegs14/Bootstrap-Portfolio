@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url(../images/gravel.png);
+    font-size: 18px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: relative;
+}
+
+nav {
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px solid #cccccc;
+}
+
+.nav-item:first-child a {
+    border-left: 0;
+}
+
+#nav-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#navbarNav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #777777;
+    display: inline-block;
+    text-decoration: none;
+    border-left: solid;
+    border-color: #dddddd;
+    padding-left: 15px;
+    line-height: 18px;
+    margin: 0px;
+    text-align: center;
+}
+
+#name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 25px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 700;
+    height: 70px;
+}
+
+#main-container {
+    width: 100%;
+    max-width: 960px;
+    background-color: #ffffff;
+    margin-top:20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#whole-container {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    border-top: 9px solid #4aaaa5;
+    clear: both;
+    width: 100%;
+    color: #cccccc;
+    height: 50px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.work {
+    margin: 20px 0 25px;
+    position: relative;
+    width: 200px;
+}
+
+.work h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 250px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.work:nth-child(even) {
+    margin-left: 10px;
+}
+
+.work:last-child {
+    margin-bottom: 20px;
+}
+
+.work img {
+    width: 100%;
+    height: 100%;
+    width: 250px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
